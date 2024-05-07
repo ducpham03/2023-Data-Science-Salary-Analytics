@@ -1,0 +1,8 @@
+#my_dataviz2 {
+  width: 600;
+  height: 450; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f4f4f4;  */
+}

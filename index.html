@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>2023 Data Science Salary Analytics</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/barchart_css.css" />
+        <link rel="stylesheet" href="assets/css/boxplot_css.css" />
+        <link rel="stylesheet" href="assets/css/treemap_css.css" />
+        <link rel="stylesheet" href="assets/css/violinplot_css.css" />
+
+        <script src="https://d3js.org/d3-format.v1.min.js"></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>            
+
+        
+    </head>
+    <body class="landing is-preload">
+        <div id="page-wrapper">
+
+            <!-- Header -->
+                <!-- <header id="header" class="alt">
+                    <h1><a>2023 Data Science Salary Analytics</a></h1>
+                </header> -->
+
+            <!-- Banner -->
+                <section id="banner">
+                    <h2>2023 Data Science Salary Analytics</h2>
+                    <p>Explore interactive visualizations of data science salary trends across various features.</p>
+                    <p>Data Source: <a href="https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023" target="_blank">Kaggle Dataset</a></p>
+                    <p>Github Repository: <a href="https://github.com/ducpham03/Data-Science-Salary-Visualization.github.io" target="_blank">Github</a></p>
+                </section>
+
+            <!-- Main -->
+                <section id="main" class="container">
+
+                    <section class="box special">
+                        <header class="major">
+                            <h2>Welcome to the Data Science Salary Analytics
+                            <br />
+                            A Project by Duc Pham</h2>
+                            <p style="font-size: 18px;">My project is dedicated to providing an extensive and detailed visualization of salary distributions within various job categories in the field of data science. By highlighting how salaries vary by different sub-fields in Data Science categories and experience levels, this project is designed to aid both existing data professionals and those aspiring to enter the field by offering critical insights that support informed career decisions.</p>
+                            <p style="font-size: 18px;">Through below visualizations, visitors can navigate the complex landscape of data science careers, gaining a deeper understanding of the financial and professional opportunities available in various specializations.</p>
+                        </header>
+                        
+                        <span class="image featured"><img src="images/pic01.jpg" alt="Data Science Visualization" /></span>
+                    </section>
+
+                    <section class="box special features" id="features-icons">
+                        <div class="features-row">
+                            <section>
+                                <a href="#barchart" class="icon solid major fa-dollar-sign accent2" style="cursor: pointer;"></a> 
+                                <h3><a href="#barchart" style="text-decoration: none; color: inherit;">Top 5 Average Salaries</a></h3>
+                                <p style="font-size: 17px;">Identify the highest-paying fields within the data science sector.</p> 
+                            </section>
+                            <section>
+                                <a href="#box_plot" class="icon solid major fa-sitemap accent3" style="cursor: pointer;"></a> 
+                                <h3><a href="#box_plot" style="text-decoration: none; color: inherit;">Salary Range by Category</a></h3>
+                                <p style="font-size: 17px;">Display the salary range across various data science job categories.</p>
+                            </section>
+                        </div>
+                        <div class="features-row">
+                            <section>
+                                <a href="#treemap" class="icon solid major fa-id-badge accent4" style="cursor: pointer;"></a> 
+                                <h3><a href="#treemap" style="text-decoration: none; color: inherit;">Comparative Salary Analysis</a></h3>
+                
+                                <p style="font-size: 17px;">Provide comprehensive salary comparisons between different data science roles.</p> 
+                            </section>
+                            <section>
+                                <a href="#violinplot" class="icon solid major fa-chart-line accent5" style="cursor: pointer;"></a>
+                                <h3><a href="#violinplot" style="text-decoration: none; color: inherit;">Experience-Level Impact</a></h3>
+
+                                <p style="font-size: 17px;">Examine how salary distributions change across entry-level to senior-level positions in data science.</p> 
+                            </section>
+                        </div>
+                    </section> 
+                    
+                    <!-- Visualization 1: Bar Chart -->
+                    <section class="box special" id="barchart">
+                        <span class="image featured"><img src="images/pic01.jpg" alt="Data Science Visualization" /></span>
+                        <p style="font-size: 18px;">
+                            This interactive bar chart showcases the top five data science categories with the highest average salaries, 
+                            directly aligning with the project's goal of highlighting the most lucrative areas within the field. </p>
+                        <p style="font-size: 18px;">
+                            Users can easily compare these top categories and also select additional categories from the controls provided to visualize and compare their average salaries. 
+                            This feature allows for a comprehensive understanding of salary structures across different sectors in data science, aiding in informed career decision-making.</p>
+                        
+                        <div id="chart"></div>
+                        <script src="https://d3js.org/d3.v7.min.js"></script>
+                        <div id="controls"></div>
+                        <div id="tooltip"></div>
+                        <p></p>
+                        <p style="font-size: 18px;">
+                            Machine Learning and AI command the highest salaries in data science, with earnings that double those in Data Management. 
+                            This significant disparity underscores the premium placed on advanced analytical skills and the capacity to innovate with complex 
+                            algorithms, crucial for driving cutting-edge technologies and solutions.</p>
+                        <p></p>
+                        <a href="#features-icons" class="back-to-top">Back to Features</a>
+                        <script src="barchart_script.js"></script>
+                    </section>
+                    
+                    <!-- Visualization 2: Boxplot -->
+                    <section class="box special" id="box_plot" >
+                        <span class="image featured"><img src="images/pic01.jpg" alt="Data Science Visualization" /></span>
+                        <p style="font-size: 18px;">
+                            This boxplot provides an insightful visualization of the salary distributions within different data science categories, serving as a crucial tool for comparing salaries across sub-fields. 
+                            Unlike simple averages, the boxplot reveals a fuller picture of the data distribution, including the median, quartiles, and the presence of any outliers, which helps us understand the spread and central tendencies of salaries. </p>
+                        <p style="font-size: 18px;">
+                            By facilitating a deeper understanding of the range and distribution of salaries, rather than just the average, the boxplot enables stakeholders—ranging from job seekers to corporate decision-makers—to make more informed decisions that consider the full context of salary data in the field of data science.
+                            </p>
+                        <p style="font-size: 18px;">Vizhub Temporary Interaction <a href="https://vizhub.com/ducpham03/90426a4b382946a88f18fc3910445c90?mode=embed" >Vizhub</a></p>
+                        
+                        <div id="boxplot"></div>
+                        <div id="boxplot-controls"></div>
+                        <div id="boxplot_tooltip"></div>        
+                        <p></p>
+                        <a href="#features-icons" class="back-to-top">Back to Features</a>        
+                        <script src="boxplot_script.js"></script>
+                        
+                    </section>
+                    
+                    <!-- Visualization 3: Treemap -->
+                    <section class="box special" id="treemap">
+                        <span class="image featured"><img src="images/pic01.jpg" alt="Data Science Visualization" /></span>
+                        <p style="font-size: 18px;">
+                            This treemap serves as an insightful visualization tool that categorizes various job titles within the data science 
+                            field, enabling us to grasp the diversity and demand of roles available. By organizing these roles into a visually 
+                            accessible format, the treemap allows us to observe how different job titles are distributed across the industry, 
+                            as well as their relative prominence and frequency. </p>
+                        <p style="font-size: 18px;">
+                            The treemap is not just a method of organizing data visually; it serves as a strategic tool that sheds light on 
+                            the structure of the data science job market, enabling users to explore specific subfields and roles within the industry. 
+                            By presenting a clear and accessible overview of various job titles, it allows individuals to identify and understand the nuances of different specializations, 
+                            particularly emphasizing the diversity of roles and the corresponding compensation levels.  </p>              
+                        <div id="my_dataviz"></div>
+                        <div id="treemap_tooltip"></div>    
+                        <p></p>
+                        <a href="#features-icons" class="back-to-top">Back to Features</a>              
+                        <script src="treemap_script.js"></script>
+                    </section>
+
+                    <!-- Visualization 4: Violin Plot -->
+                    <section class="box special" id="violinplot">
+                        <span class="image featured"><img src="images/pic01.jpg" alt="Data Science Visualization" /></span>
+                        <p style="font-size: 17.5px;">
+                            This violin plot provides a detailed visualization of salary distributions across four distinct experience levels, 
+                            effectively encapsulating our goal to scrutinize the impact of professional experience on salary. 
+                            By presenting this data visually, the plot offers a nuanced understanding of how salaries escalate with increasing levels 
+                            of experience. </p>
+                        <p style="font-size: 18px;">
+                        The violin plot is a powerful analytical tool that combines visual simplicity with insightful data analysis to 
+                        enhance decision-making in salary structuring and career planning. It effectively illustrates how experience 
+                        levels impact earning potential, highlighting the complex patterns in salary distributions.</p>
+                    
+                        <div id="my_dataviz2"></div>       
+                        <p></p>
+                        <a href="#features-icons" class="back-to-top">Back to Features</a>          
+                        <script src="violinplot_script.js"></script>
+                    </section>
+                </section>
+            
+                <!-- CTA -->
+				<section id="cta">
+                    <h2>References</h2>
+                    <ul>
+                        <p></p>
+                        <p style="font-size: 20px;">Data Source: <a href="https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023" target="_blank">Kaggle Dataset</a></p>
+                        <li style="font-size: 20px;">Violin Plot Reference: <a href="https://d3-graph-gallery.com/graph/violin_basicHist.html" target="_blank">Violin Plot in D3.js</a></li>
+                        <p></p>
+                        <li style="font-size: 20px;">Treemap Reference: <a href="https://d3-graph-gallery.com/treemap.html" target="_blank">Treemap in D3.js</a></li>
+                        <p></p>
+                        <li style="font-size: 20px;">Davenport, Thomas H., and D.J. Patil. <a href="https://blogs.sun.ac.za/open-day/files/2022/03/Data-Scientist-Harvard-review.pdf" target="_blank"> "Data Scientist: The Sexiest Job of the 21st Century."</a> Harvard Business Review, 2011.</li>
+                    </ul>
+                    <p></p>
+                    <p></p>
+                    <a href="#banner" class="back-to-top" style="color: white; font-size: 25px;">Return to Top</a>
+
+                </section>				
+                
+    </body>
+</html>

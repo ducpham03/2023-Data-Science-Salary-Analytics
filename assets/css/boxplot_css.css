@@ -1,0 +1,49 @@
+/* Styles specific to the box plot container */
+#boxplot {
+    width: 800px;
+    height: 450px;
+    margin: 10px auto;
+}
+
+/* Styles for the control section of the box plot */
+#boxplot-controls {
+    text-align: center;
+    margin-top: -5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styles for each checkbox group within the box plot controls */
+.boxplot-checkbox-group {
+    margin: 5px 10px;
+}
+
+/* Label styling within box plot checkbox groups */
+.boxplot-checkbox-group label {
+    margin-left: 5px;
+    font-size: 14px;
+    /* cursor: pointer; */
+}
+
+/* Checkbox styling within box plot checkbox groups */
+.boxplot-checkbox-group input[type='checkbox'] {
+    appearance: auto !important;  
+    -webkit-appearance: checkbox !important; 
+    background-color: #ccc !important;
+    border: 1px solid #333 !important;
+    transform: scale(1.2);
+    margin-right: 5px;
+    /* cursor: pointer; */
+}
+
+/* Boxplot tooltip styling */
+
+.boxplot_tooltip {
+    position: absolute;
+    background-color: white;
+    border: solid 1px black;
+    padding: 5px;
+    display: none; 
+  
+}

@@ -1,0 +1,16 @@
+/* Styles for the visualization container */
+#my_dataviz {
+    width: 800px;
+    height: 500px;
+    margin: 0px auto;  
+    display: block;  
+}
+
+/* Styles for the tooltip */
+#treemap_tooltip {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+}

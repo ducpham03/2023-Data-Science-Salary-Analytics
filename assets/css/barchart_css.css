@@ -1,0 +1,49 @@
+/* File: css/styles.css */
+
+#chart {
+    width: 900px;
+    height: 550px;
+    margin: 10px auto;
+}
+
+#controls {
+    text-align: center;
+    margin-top: -100px;
+    /* margin-left: 0px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.checkbox-group {
+    margin: -10px 0px;
+}
+.checkbox-group label {
+    margin-left: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.checkbox-group input[type='checkbox'] {
+    appearance: auto !important;  
+    -webkit-appearance: checkbox !important; 
+    background-color: #ccc !important;
+    border: 1px solid #333 !important;
+    transform: scale(1.2);
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+
+#tooltip {
+    position: absolute;
+    visibility: hidden;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* display: none; */
+    pointer-events: none;
+}
+
+
