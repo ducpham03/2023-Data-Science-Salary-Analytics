@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const width = 600;
     const height = 450;
-    const margin = { top: 100, right: 200, bottom: 50, left: 100 };
+    const margin = { top: 100, right: 150, bottom: 50, left: 100 };
 
     const svg = d3.select('#my_dataviz2')
         .append('svg')
