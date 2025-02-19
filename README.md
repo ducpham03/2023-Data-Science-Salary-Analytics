@@ -2,8 +2,10 @@
 
 https://ducpham03.github.io/
 
-2023 Data Science Salary Analytics
-Overview
+
+# Overview
+
+
 This project provides an extensive and interactive visualization of salary distributions across various job categories in the field of data science. By analyzing salary trends based on job roles, experience levels, and sub-fields within data science, this project aims to help professionals and aspiring data scientists make informed career decisions.
 
 Features
