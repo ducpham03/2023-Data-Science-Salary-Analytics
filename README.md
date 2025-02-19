@@ -24,7 +24,9 @@ This project provides an extensive and interactive visualization of salary distr
 
 
 ### Data Source
-The dataset used in this project is sourced from Kaggle, containing salary information for data science roles in 2023: https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023
+The dataset used in this project is sourced from Kaggle, contains salary information for data science roles in 2023: 
+
+https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023
 
 
 ### Technology Stack
