@@ -24,8 +24,7 @@ ______________________
 
 
 ### Data Source
-The dataset used in this project is sourced from Kaggle, contains salary information for data science roles in 2023: 
-
+The dataset used in this project is sourced from Kaggle, and contains salary information for data science roles in 2023: 
 https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023
 
 
@@ -34,3 +33,9 @@ https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023
 - D3.js: Interactive visualizations
 - Pandas & NumPy: Data manipulation
 - Matplotlib & Seaborn: Data visualization
+
+
+### References
+- Davenport, Thomas H., and D.J. Patil. "Data Scientist: The Sexiest Job of the 21st Century." Harvard Business Review, 2011.
+- Violin Plot Reference: Violin Plot in D3.js
+- Treemap Reference: Treemap in D3.js
