@@ -37,5 +37,10 @@ https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023
 
 ### References
 - Davenport, Thomas H., and D.J. Patil. "Data Scientist: The Sexiest Job of the 21st Century." Harvard Business Review, 2011.
+https://blogs.sun.ac.za/open-day/files/2022/03/Data-Scientist-Harvard-review.pdf
+
 - Violin Plot Reference: Violin Plot in D3.js
+https://d3-graph-gallery.com/graph/violin_basicHist.html
+
 - Treemap Reference: Treemap in D3.js
+  https://d3-graph-gallery.com/treemap.html
