@@ -1,6 +1,6 @@
 # 2023 Data Science Salary Analytics 
 
- Explore the interactive visualizations here: **https://ducpham03.github.io/**
+ Explore the interactive visualizations here: **[https://ducpham03.github.io/](https://ducpham03.github.io/2023-Data-Science-Salary-Analytics/)**
 
 
 ## **Overview**
